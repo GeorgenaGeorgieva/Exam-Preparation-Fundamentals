@@ -1,78 +1,55 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using System.Linq;
-using System.Globalization;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
 
-namespace Problem_1___Concert
+namespace _2._Race
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Dictionary<string, List<string>> bandNamesAndMembers = new Dictionary<string, List<string>>();
-            Dictionary<string, int> bandNameAndTimes = new Dictionary<string, int>();
-            int totalTime = 0;
+            var regexDigits = @"\d";
+            var regexLetters = @"[A-Za-z]";
+            Dictionary<string, double> participantsAndDistance = new Dictionary<string, double>();
+            string[] participantNames = Console.ReadLine().Split(", ").ToArray();
+            foreach (string player in participantNames)
+            {
+                if (!participantsAndDistance.ContainsKey(player))
+                {
+                    participantsAndDistance[player] = 0;
+                }
+            }
             string input = Console.ReadLine();
-
-            while (input != "start of concert")
+            while (input != "end of race")
             {
-                string[] infoComandsAndBands = input.Split("; ", StringSplitOptions.RemoveEmptyEntries).ToArray(); 
-                string comand = infoComandsAndBands[0];
-                string bandName = infoComandsAndBands[1];
-                if (comand == "Add")
+                MatchCollection nameMatch = Regex.Matches(input, regexLetters);
+                MatchCollection distanceMatch = Regex.Matches(input, regexDigits);
+                string currentName = String.Empty;
+                double distance = 0;
+                foreach (Match letter in nameMatch)
                 {
-                    List<string> memberNames = infoComandsAndBands[2].Split(", ", StringSplitOptions.RemoveEmptyEntries).ToList();
-                    if (!bandNamesAndMembers.ContainsKey(bandName))
-                    {
-                        bandNamesAndMembers.Add(bandName, memberNames);
-                    }
-                    else 
-                    {
-                        foreach (var member in memberNames)
-                        {
-                            if (!bandNamesAndMembers[bandName].Contains(member))
-                            {
-                                bandNamesAndMembers[bandName].Add(member);
-                            }
-                        }
-                    }
+                    currentName += letter.Value;
                 }
-                else if (comand == "Play")
+                foreach (Match digit in distanceMatch)
                 {
-                    int bandTime = int.Parse(infoComandsAndBands[2]);
-                    totalTime += bandTime;
-                    if (!bandNameAndTimes.ContainsKey(bandName))
-                    {
-                        bandNameAndTimes.Add(bandName, bandTime);
-                    }
-                    else
-                    {
-                        bandNameAndTimes[bandName] += bandTime;
-                    }
+                    distance += double.Parse(digit.Value);
                 }
-               input = Console.ReadLine();
+                if (participantsAndDistance.ContainsKey(currentName))
+                {
+                    participantsAndDistance[currentName] += distance;
+                }
+                input = Console.ReadLine();
             }
-
-            bandNameAndTimes = bandNameAndTimes
+            participantsAndDistance = participantsAndDistance
                 .OrderByDescending(x => x.Value)
-                .ThenBy(x => x.Key)
-                .ToDictionary(x => x.Key, y => y.Value);
+                .ToDictionary(z => z.Key, x => x.Value);
 
-            string selectedBand = Console.ReadLine();
-            Console.WriteLine($"Total time: {totalTime}");
-            foreach (var time in bandNameAndTimes)
-            {
-                Console.WriteLine($"{time.Key} -> {time.Value}");
-            }
-           
-            if (bandNamesAndMembers.ContainsKey(selectedBand))
-            {
-               Console.WriteLine($"{selectedBand}");
-               for (int i = 0; i < bandNamesAndMembers[selectedBand].Count; i++)
-               {
-                        Console.WriteLine($"=> {bandNamesAndMembers[selectedBand][i]}");
-               }  
-            }
+            Console.WriteLine($"1st place: {participantsAndDistance.Keys.ElementAt(0)}");
+            Console.WriteLine($"2nd place: {participantsAndDistance.Keys.ElementAt(1)}");
+            Console.WriteLine($"3rd place: {participantsAndDistance.Keys.ElementAt(2)}");
         }
     }
 }
