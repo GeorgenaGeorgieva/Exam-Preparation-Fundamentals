@@ -1,55 +1,52 @@
 ﻿using System;
-using System.Text.RegularExpressions;
-using System.Linq;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Text.RegularExpressions;
 using System.Text;
 
-namespace _2._Race
+namespace Problem_1._The_Isle_of_Man_TT_Race
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var regexDigits = @"\d";
-            var regexLetters = @"[A-Za-z]";
-            Dictionary<string, double> participantsAndDistance = new Dictionary<string, double>();
-            string[] participantNames = Console.ReadLine().Split(", ").ToArray();
-            foreach (string player in participantNames)
+            string regex = @"(([#%$*&]))(?<name>[A-Za-z]+)(\2)([=])(?<length>\d+)([!]{2})(?<encrypted>\w+\S+)";
+            while (true)
             {
-                if (!participantsAndDistance.ContainsKey(player))
+                string input = Console.ReadLine();
+                MatchCollection matchedInput = Regex.Matches(input, regex);
+                if (matchedInput.Count == 0)
                 {
-                    participantsAndDistance[player] = 0;
+                    Console.WriteLine($"Nothing found!");
                 }
-            }
-            string input = Console.ReadLine();
-            while (input != "end of race")
-            {
-                MatchCollection nameMatch = Regex.Matches(input, regexLetters);
-                MatchCollection distanceMatch = Regex.Matches(input, regexDigits);
-                string currentName = String.Empty;
-                double distance = 0;
-                foreach (Match letter in nameMatch)
+                else
                 {
-                    currentName += letter.Value;
-                }
-                foreach (Match digit in distanceMatch)
-                {
-                    distance += double.Parse(digit.Value);
-                }
-                if (participantsAndDistance.ContainsKey(currentName))
-                {
-                    participantsAndDistance[currentName] += distance;
-                }
-                input = Console.ReadLine();
-            }
-            participantsAndDistance = participantsAndDistance
-                .OrderByDescending(x => x.Value)
-                .ToDictionary(z => z.Key, x => x.Value);
+                    foreach (Match match in matchedInput)
+                    {
+                        string nameracer = match.Groups["name"].ToString();
+                        int lengthgeohash = int.Parse(match.Groups["length"].ToString());
+                        string encryptedtext = match.Groups["encrypted"].ToString();
 
-            Console.WriteLine($"1st place: {participantsAndDistance.Keys.ElementAt(0)}");
-            Console.WriteLine($"2nd place: {participantsAndDistance.Keys.ElementAt(1)}");
-            Console.WriteLine($"3rd place: {participantsAndDistance.Keys.ElementAt(2)}");
+                        if (encryptedtext.Length != lengthgeohash)
+                        {
+                            Console.WriteLine($"Nothing found!");
+                            break;
+                        }
+                        else
+                        {
+                            StringBuilder buildText = new StringBuilder();  
+                            for (int i = 0; i < encryptedtext.Length; i++)
+                            {
+                                char currentSymbol = encryptedtext[i];
+                                char dectiptText = (char)(currentSymbol + lengthgeohash);
+                                buildText.Append(dectiptText);
+                            }
+                            Console.WriteLine($"Coordinates found! {nameracer} -> {buildText}");
+                            return;
+                        }
+                    }
+                }
+            }
         }
     }
 }
