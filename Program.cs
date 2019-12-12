@@ -11,6 +11,7 @@ namespace Problem_02._Song_Encryption
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
+            
             while (input != "end")
             {
                 string artist = input.Substring(0, input.IndexOf(":"));
@@ -42,9 +43,11 @@ namespace Problem_02._Song_Encryption
                             {
                                 symbol = (char)(symbol - 26);
                             }
+                            
                             buildText.Append(symbol);
                         }
                     }
+                    
                     Console.WriteLine($"Successful encryption: {buildText.ToString()}");
                 }
                 else
@@ -55,9 +58,11 @@ namespace Problem_02._Song_Encryption
                 input = Console.ReadLine();
             }
         }
+        
         public static bool ValidatesSong(string song)
         {
             bool isValid = true;
+            
             for (int i = 0; i < song.Length; i++)
             {
                 if (!char.IsUpper(song[i]) && song[i] != ' ')
@@ -66,15 +71,19 @@ namespace Problem_02._Song_Encryption
                     break;
                 }
             }
+            
             return isValid;
         }
+        
         public static bool ValidatesArtist(string artist)
         {
             bool isValid = true;
+            
             if (!char.IsUpper(artist[0]))
             {
                 isValid = false;
             }
+            
             for (int i = 1; i < artist.Length; i++)
             {
                 if (!char.IsLower(artist[i]) && artist[i] != ' ' && artist[i] != '\'')
@@ -83,6 +92,7 @@ namespace Problem_02._Song_Encryption
                     break;
                 }
             }
+            
             return isValid;
         }
     }
