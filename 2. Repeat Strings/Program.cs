@@ -10,6 +10,7 @@ namespace _2._Repeat_Strings
         {
             string[] words = Console.ReadLine().Split();
             StringBuilder result = new StringBuilder();
+            
             foreach (var word in words)
             {
                 for (int i = 0; i < word.Length; i++)
@@ -17,6 +18,7 @@ namespace _2._Repeat_Strings
                     result.Append(word);
                 }
             }
+            
             Console.WriteLine(result);
         }
     }
