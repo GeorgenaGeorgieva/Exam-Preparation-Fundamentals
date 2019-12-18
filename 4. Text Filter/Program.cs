@@ -8,8 +8,13 @@ namespace _4._Text_Filter
     {
         static void Main(string[] args)
         {
-            string[] specialWords = Console.ReadLine().Split(", ");
+            string[] specialWords = Console
+                .ReadLine()
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+            
             string text = Console.ReadLine();
+            
             foreach (var word in specialWords)
             {
                 if (text.Contains(word))
@@ -17,6 +22,7 @@ namespace _4._Text_Filter
                     text = text.Replace(word, new string ('*', word.Length));
                 }
             }
+            
             Console.WriteLine(text);
         }
     }
