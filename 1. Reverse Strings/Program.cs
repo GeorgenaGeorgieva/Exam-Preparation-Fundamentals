@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 
-namespace _1._Reverse_Strings
+namespace ReverseStrings
 {
     class Program
     {
