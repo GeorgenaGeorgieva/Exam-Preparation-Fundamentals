@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace _2._Repeat_Strings
+namespace RepeatStrings
 {
     class Program
     {
