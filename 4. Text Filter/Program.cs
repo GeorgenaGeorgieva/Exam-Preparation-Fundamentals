@@ -2,7 +2,7 @@
 using System.Text;
 using System.Linq;
 
-namespace _4._Text_Filter
+namespace TextFilter
 {
     class Program
     {
