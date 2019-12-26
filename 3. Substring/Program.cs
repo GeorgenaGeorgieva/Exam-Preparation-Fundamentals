@@ -2,7 +2,7 @@
 using System.Text;
 using System.Linq;
 
-namespace _3._Substring
+namespace Substring
 {
     class Program
     {
