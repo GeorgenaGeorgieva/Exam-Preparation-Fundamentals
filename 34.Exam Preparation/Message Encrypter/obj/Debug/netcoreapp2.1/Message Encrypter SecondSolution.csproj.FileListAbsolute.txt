@@ -1,0 +1,10 @@
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\bin\Debug\netcoreapp2.1\Message Encrypter SecondSolution.deps.json
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\bin\Debug\netcoreapp2.1\Message Encrypter SecondSolution.runtimeconfig.json
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\bin\Debug\netcoreapp2.1\Message Encrypter SecondSolution.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\bin\Debug\netcoreapp2.1\Message Encrypter SecondSolution.dll
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\bin\Debug\netcoreapp2.1\Message Encrypter SecondSolution.pdb
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\obj\Debug\netcoreapp2.1\Message Encrypter SecondSolution.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\obj\Debug\netcoreapp2.1\Message Encrypter SecondSolution.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\obj\Debug\netcoreapp2.1\Message Encrypter SecondSolution.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\obj\Debug\netcoreapp2.1\Message Encrypter SecondSolution.dll
+D:\SoftUni\Fundamentals\Message Encrypter SecondSolution\obj\Debug\netcoreapp2.1\Message Encrypter SecondSolution.pdb

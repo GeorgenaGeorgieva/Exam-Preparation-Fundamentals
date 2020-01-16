@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\bin\Debug\netcoreapp2.1\String Manipulator - Group 2.deps.json
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\bin\Debug\netcoreapp2.1\String Manipulator - Group 2.runtimeconfig.json
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\bin\Debug\netcoreapp2.1\String Manipulator - Group 2.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\bin\Debug\netcoreapp2.1\String Manipulator - Group 2.dll
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\bin\Debug\netcoreapp2.1\String Manipulator - Group 2.pdb
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.dll
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.pdb
+D:\SoftUni\Fundamentals\String Manipulator - Group 2\obj\Debug\netcoreapp2.1\String Manipulator - Group 2.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Weaponsmith\bin\Debug\netcoreapp2.1\Weaponsmith.deps.json
+D:\SoftUni\Fundamentals\Weaponsmith\bin\Debug\netcoreapp2.1\Weaponsmith.runtimeconfig.json
+D:\SoftUni\Fundamentals\Weaponsmith\bin\Debug\netcoreapp2.1\Weaponsmith.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Weaponsmith\bin\Debug\netcoreapp2.1\Weaponsmith.dll
+D:\SoftUni\Fundamentals\Weaponsmith\bin\Debug\netcoreapp2.1\Weaponsmith.pdb
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.dll
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.pdb
+D:\SoftUni\Fundamentals\Weaponsmith\obj\Debug\netcoreapp2.1\Weaponsmith.csprojAssemblyReference.cache

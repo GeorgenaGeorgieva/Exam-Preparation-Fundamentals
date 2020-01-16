@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Biscuits Factory\bin\Debug\netcoreapp2.1\Biscuits Factory.deps.json
+D:\SoftUni\Fundamentals\Biscuits Factory\bin\Debug\netcoreapp2.1\Biscuits Factory.runtimeconfig.json
+D:\SoftUni\Fundamentals\Biscuits Factory\bin\Debug\netcoreapp2.1\Biscuits Factory.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Biscuits Factory\bin\Debug\netcoreapp2.1\Biscuits Factory.dll
+D:\SoftUni\Fundamentals\Biscuits Factory\bin\Debug\netcoreapp2.1\Biscuits Factory.pdb
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.dll
+D:\SoftUni\Fundamentals\Biscuits Factory\obj\Debug\netcoreapp2.1\Biscuits Factory.pdb

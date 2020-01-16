@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Problem 1 – Concert\bin\Debug\netcoreapp2.1\Problem 1 – Concert.deps.json
+D:\SoftUni\Fundamentals\Problem 1 – Concert\bin\Debug\netcoreapp2.1\Problem 1 – Concert.runtimeconfig.json
+D:\SoftUni\Fundamentals\Problem 1 – Concert\bin\Debug\netcoreapp2.1\Problem 1 – Concert.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Problem 1 – Concert\bin\Debug\netcoreapp2.1\Problem 1 – Concert.dll
+D:\SoftUni\Fundamentals\Problem 1 – Concert\bin\Debug\netcoreapp2.1\Problem 1 – Concert.pdb
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.dll
+D:\SoftUni\Fundamentals\Problem 1 – Concert\obj\Debug\netcoreapp2.1\Problem 1 – Concert.pdb

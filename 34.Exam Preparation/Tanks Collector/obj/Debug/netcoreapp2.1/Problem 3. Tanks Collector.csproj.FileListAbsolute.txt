@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\bin\Debug\netcoreapp2.1\Problem 3. Tanks Collector.deps.json
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\bin\Debug\netcoreapp2.1\Problem 3. Tanks Collector.runtimeconfig.json
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\bin\Debug\netcoreapp2.1\Problem 3. Tanks Collector.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\bin\Debug\netcoreapp2.1\Problem 3. Tanks Collector.dll
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\bin\Debug\netcoreapp2.1\Problem 3. Tanks Collector.pdb
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.dll
+D:\SoftUni\Fundamentals\Problem 3. Tanks Collector\obj\Debug\netcoreapp2.1\Problem 3. Tanks Collector.pdb

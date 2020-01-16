@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Wizard Poker\bin\Debug\netcoreapp2.1\Wizard Poker.deps.json
+D:\SoftUni\Fundamentals\Wizard Poker\bin\Debug\netcoreapp2.1\Wizard Poker.runtimeconfig.json
+D:\SoftUni\Fundamentals\Wizard Poker\bin\Debug\netcoreapp2.1\Wizard Poker.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Wizard Poker\bin\Debug\netcoreapp2.1\Wizard Poker.dll
+D:\SoftUni\Fundamentals\Wizard Poker\bin\Debug\netcoreapp2.1\Wizard Poker.pdb
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.dll
+D:\SoftUni\Fundamentals\Wizard Poker\obj\Debug\netcoreapp2.1\Wizard Poker.pdb

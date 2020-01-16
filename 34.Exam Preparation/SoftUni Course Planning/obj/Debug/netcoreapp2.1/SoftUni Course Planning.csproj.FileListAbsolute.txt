@@ -1,0 +1,11 @@
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\bin\Debug\netcoreapp2.1\SoftUni Course Planning.deps.json
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\bin\Debug\netcoreapp2.1\SoftUni Course Planning.runtimeconfig.json
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\bin\Debug\netcoreapp2.1\SoftUni Course Planning.runtimeconfig.dev.json
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\bin\Debug\netcoreapp2.1\SoftUni Course Planning.dll
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\bin\Debug\netcoreapp2.1\SoftUni Course Planning.pdb
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.csprojAssemblyReference.cache
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.csproj.CoreCompileInputs.cache
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.AssemblyInfoInputs.cache
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.AssemblyInfo.cs
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.dll
+D:\SoftUni\Associative Arrays _ Fundamentals\SoftUni Course Planning\obj\Debug\netcoreapp2.1\SoftUni Course Planning.pdb
