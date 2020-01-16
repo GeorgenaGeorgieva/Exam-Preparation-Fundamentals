@@ -10,6 +10,7 @@ namespace _5._Digits__Letters_and_Other
         static void Main(string[] args)
         {
             string line = Console.ReadLine();
+            
             StringBuilder letters = new StringBuilder();
             StringBuilder digits = new StringBuilder();
             StringBuilder characters = new StringBuilder();
@@ -17,6 +18,7 @@ namespace _5._Digits__Letters_and_Other
             for (int i = 0; i < line.Length; i++)
             {
                 var charText = line[i];
+                
                 if (char.IsDigit(charText))
                 {
                     digits.Append(charText);
@@ -30,6 +32,7 @@ namespace _5._Digits__Letters_and_Other
                     characters.Append(charText);
                 }
             }
+            
             Console.WriteLine($"{digits}\n{letters}\n{characters}");
         }
     }

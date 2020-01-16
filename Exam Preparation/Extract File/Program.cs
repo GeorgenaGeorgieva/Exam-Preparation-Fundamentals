@@ -8,10 +8,19 @@ namespace Extract_File
     {
         static void Main(string[] args)
         {
-            string[] inputLine = Console.ReadLine().Split("\\").ToArray();
-            string[] lastElement = inputLine.Last().Split(".");
+            string[] inputLine = Console
+                .ReadLine()
+                .Split("\\", StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+            
+            string[] lastElement = inputLine
+                .Last()
+                .Split(".")
+                .ToArray();
+            
             string fileName = lastElement.First();
             string fileExtension = lastElement.Last();
+            
             Console.WriteLine($"File name: {fileName} \nFile extension: {fileExtension}");
         }
     }
