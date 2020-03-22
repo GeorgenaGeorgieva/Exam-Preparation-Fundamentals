@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\bin\Debug\netcoreapp2.1\3. SoftUni Bar Income.deps.json
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\bin\Debug\netcoreapp2.1\3. SoftUni Bar Income.runtimeconfig.json
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\bin\Debug\netcoreapp2.1\3. SoftUni Bar Income.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\bin\Debug\netcoreapp2.1\3. SoftUni Bar Income.dll
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\bin\Debug\netcoreapp2.1\3. SoftUni Bar Income.pdb
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.dll
+D:\SoftUni\Fundamentals\Regular Expressions\3. SoftUni Bar Income\obj\Debug\netcoreapp2.1\3. SoftUni Bar Income.pdb
