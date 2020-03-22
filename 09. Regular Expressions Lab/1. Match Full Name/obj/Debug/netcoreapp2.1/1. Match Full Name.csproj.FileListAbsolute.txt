@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\bin\Debug\netcoreapp2.1\1. Match Full Name.deps.json
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\bin\Debug\netcoreapp2.1\1. Match Full Name.runtimeconfig.json
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\bin\Debug\netcoreapp2.1\1. Match Full Name.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\bin\Debug\netcoreapp2.1\1. Match Full Name.dll
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\bin\Debug\netcoreapp2.1\1. Match Full Name.pdb
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.csprojAssemblyReference.cache
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.dll
+D:\SoftUni\Fundamentals\Regular Expressions\1. Match Full Name\obj\Debug\netcoreapp2.1\1. Match Full Name.pdb
