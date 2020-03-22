@@ -1,0 +1,11 @@
+D:\SoftUni\Fundamentals\2. Race\bin\Debug\netcoreapp2.1\2. Race.deps.json
+D:\SoftUni\Fundamentals\2. Race\bin\Debug\netcoreapp2.1\2. Race.runtimeconfig.json
+D:\SoftUni\Fundamentals\2. Race\bin\Debug\netcoreapp2.1\2. Race.runtimeconfig.dev.json
+D:\SoftUni\Fundamentals\2. Race\bin\Debug\netcoreapp2.1\2. Race.dll
+D:\SoftUni\Fundamentals\2. Race\bin\Debug\netcoreapp2.1\2. Race.pdb
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.csproj.CoreCompileInputs.cache
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.AssemblyInfoInputs.cache
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.AssemblyInfo.cs
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.dll
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.pdb
+D:\SoftUni\Fundamentals\2. Race\obj\Debug\netcoreapp2.1\2. Race.csprojAssemblyReference.cache
