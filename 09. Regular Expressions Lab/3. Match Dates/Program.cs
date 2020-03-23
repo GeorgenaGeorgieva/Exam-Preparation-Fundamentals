@@ -1,7 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-namespace _3._Match_Dates
+namespace MatchDates
 {
+    using System;
+    using System.Text.RegularExpressions;
+    
     class Program
     {
         static void Main(string[] args)
