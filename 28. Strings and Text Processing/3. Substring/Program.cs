@@ -1,9 +1,9 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-
 namespace Substring
 {
+    using System;
+    using System.Text;
+    using System.Linq;
+    
     class Program
     {
         static void Main(string[] args)
