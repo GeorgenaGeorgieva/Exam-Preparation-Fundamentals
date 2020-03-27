@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-
-namespace Multiply_Big_Number
+namespace MultiplyBigNumber
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+    
     class Program
     {
         static void Main(string[] args)
