@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-
-namespace Letters_Change_Numbers
+namespace LettersChangeNumbers
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+
     class Program
     {
         static void Main(string[] args)
