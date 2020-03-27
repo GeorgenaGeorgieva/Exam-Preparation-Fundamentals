@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-
-namespace Replace_Repeating_Chars
+namespace ReplaceRepeatingChars
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+    
     class Program
     {
         static void Main(string[] args)
