@@ -1,9 +1,8 @@
-﻿using System;
-using System.Linq;
-
-
-namespace Extract_File
+namespace ExtractFile
 {
+    using System;
+    using System.Linq;
+    
     class Program
     {
         static void Main(string[] args)
