@@ -1,10 +1,10 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-using System.Diagnostics;
-
-namespace _5._Digits__Letters_and_Other
+namespace DigitsLettersAndOther
 {
+    using System;
+    using System.Text;
+    using System.Linq;
+    using System.Diagnostics;
+    
     class Program
     {
         static void Main(string[] args)
