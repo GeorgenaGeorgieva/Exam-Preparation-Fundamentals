@@ -1,16 +1,16 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Character_Multiplier
+namespace CharacterMultiplier
 {
+    using System;
+    using System.Linq;
+    using System.Collections.Generic;
+    using System.Text;
+    
     class Program
     {
         static void Main(string[] args)
         {
-            string[] input = Console.
-                ReadLine()
+            string[] input = Console
+                .ReadLine()
                 .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
             
