@@ -1,4 +1,4 @@
-namespace Valid_Usernames
+namespace ValidUsernames
 {
     using System;
     using System.Text;
