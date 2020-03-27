@@ -1,10 +1,9 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-
-
-namespace String_Explosion
+namespace StringExplosion
 {
+    using System;
+    using System.Text;
+    using System.Linq;
+    
     class Program
     {
         static void Main(string[] args)
