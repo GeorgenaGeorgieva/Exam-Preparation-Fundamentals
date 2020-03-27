@@ -1,14 +1,15 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-
 namespace Valid_Usernames
 {
+    using System;
+    using System.Text;
+    using System.Linq;
+    
     class Program
     {
         static void Main(string[] args)
         {
-            string[] userNames = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries);
+            string[] userNames = Console.ReadLine()
+                .Split(", ", StringSplitOptions.RemoveEmptyEntries);
            
             for (int i = 0; i < userNames.Length; i++)
             {
