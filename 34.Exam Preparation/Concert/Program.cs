@@ -1,10 +1,10 @@
-﻿using System;
-using System.Linq;
-using System.Globalization;
-using System.Collections.Generic;
-
-namespace Problem_1___Concert
+namespace Concert
 {
+    using System;
+    using System.Linq;
+    using System.Globalization;
+    using System.Collections.Generic;
+    
     class Program
     {
         static void Main(string[] args)
@@ -18,13 +18,18 @@ namespace Problem_1___Concert
 
             while (input != "start of concert")
             {
-                string[] infoComandsAndBands = input.Split("; ", StringSplitOptions.RemoveEmptyEntries).ToArray(); 
+                string[] infoComandsAndBands = input
+                    .Split("; ", StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray(); 
+                
                 string comand = infoComandsAndBands[0];
                 string bandName = infoComandsAndBands[1];
 
                 if (comand == "Add")
                 {
-                    List<string> memberNames = infoComandsAndBands[2].Split(", ", StringSplitOptions.RemoveEmptyEntries).ToList();
+                    List<string> memberNames = infoComandsAndBands[2]
+                        .Split(", ", StringSplitOptions.RemoveEmptyEntries)
+                        .ToList();
 
                     if (!bandNamesAndMembers.ContainsKey(bandName))
                     {
@@ -55,6 +60,7 @@ namespace Problem_1___Concert
                         bandNameAndTimes[bandName] += bandTime;
                     }
                 }
+                
                input = Console.ReadLine();
             }
 
@@ -77,7 +83,7 @@ namespace Problem_1___Concert
 
                for (int i = 0; i < bandNamesAndMembers[selectedBand].Count; i++)
                {
-                        Console.WriteLine($"=> {bandNamesAndMembers[selectedBand][i]}");
+                    Console.WriteLine($"=> {bandNamesAndMembers[selectedBand][i]}");
                }  
             }
         }
