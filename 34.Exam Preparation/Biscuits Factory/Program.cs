@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Biscuits_Factory
+namespace BiscuitsFactory
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    
     class Program
     {
         static void Main(string[] args)
@@ -25,6 +25,7 @@ namespace Biscuits_Factory
                     sumBiscuits += biscuitsPerDay;
                 }
             }
+            
             Console.WriteLine($"You have produced {sumBiscuits} biscuits for the past month.");
 
             if (sumBiscuits > competingFactoryBiscuits)
